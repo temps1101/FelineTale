@@ -1,0 +1,12 @@
+name: FelineTale
+version: '${project.version}'
+main: com.temps1101.felinetale.felinetale.FelineTale
+authors: [ temps1101 ]
+description: A Multi-Purpose Menu Plugin
+commands:
+  menuitem:
+    permission: felinetale.command.menuitem
+    aliases: [ mi ]
+permissions:
+  felinetale.command.menuitem:
+    default: op
